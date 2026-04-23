@@ -1,0 +1,27 @@
+# ==========================================
+# UG Backend — .gitignore
+# ==========================================
+
+# Environment variables — KABHI PUSH MAT KARNA!
+.env
+.env.local
+.env.production
+
+# Firebase service account — SENSITIVE!
+serviceAccountKey.json
+*.json.key
+
+# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
