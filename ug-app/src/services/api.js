@@ -1,8 +1,8 @@
 import axios from 'axios';
 import { getToken, clearAuthData } from '../utils/storage';
 
-// Base URL — update via .env or direct constant
-const BASE_URL = 'http://10.0.2.2:5000/api'; // Android emulator → localhost
+// ✅ LIVE Backend — Render.com
+const BASE_URL = 'https://ug-backend-zzz8.onrender.com/api';
 
 const api = axios.create({
   baseURL: BASE_URL,
